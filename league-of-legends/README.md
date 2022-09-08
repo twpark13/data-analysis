@@ -82,6 +82,7 @@ hyperparameter tuning 에는 RandomizedSearchCV, GridSearchCV를 사용,
 ensemble 기법으로 Stacking, Voting (hard, soft) 등을 시도하였다.
 
 최종 모델: Logistic Regression
+
 Test Accuracy: 0.8019
 
 feature selection 및 hyperparameter tuning 과정은 분량이 많아 일부 생략된 부분이 있다.
