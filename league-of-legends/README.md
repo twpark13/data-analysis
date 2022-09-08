@@ -66,17 +66,17 @@
 용량 문제로 인해 raw data를 전부 업로드 하기 어려운 관계로 timeline 및 match 파일은 5개씩만 샘플로 업로드하였다. 
 게임 데이터에서 챔피언 킬 정보만 따로 추출한 파일 또한 단일 용량이 100MB를 초과하는 관계로 업로드하지 못 하였으며, 이외의 사용된 파일은 모두 업로드 하였다.
 
-상세 과정은 preprocessing 참조
+상세 과정은 [preprocessing](/preprocessing.ipynb)  참조
 
 
 ## Exploratory Data Analysis
 
-analysis 참조
+[analysis](/analysis.ipynb) 참조
 
 ## Modeling
 
 deep learning 보다는 machine learning이 설명에 더 용이하다고 판단하여 이를 이용하기로 결정하였다. 
-분류 알고리즘으로 Random Forest, Logistic Regression, XGBoost, LightGBM, Extra Trees, AdaBoost, BaggingClassifier, SVM, K Nearest Neighbor, Gradient Boosting 등을 시도하였고,
+분류 알고리즘으로 Random Forest, Logistic Regression, XGBoost, LightGBM, Extra Trees, AdaBoost, BaggingClassifier, Gaussian Naive Bayes, SVM, K Nearest Neighbor, Gradient Boosting 등을 시도하였고,
 feature selection에 Permutation Importance, RFECV 등을 사용하였고,
 hyperparameter tuning 에는 RandomizedSearchCV, GridSearchCV를 사용, 
 ensemble 기법으로 Stacking, Voting (hard, soft) 등을 시도하였다.
@@ -86,7 +86,7 @@ Test Accuracy: 0.8019
 
 feature selection 및 hyperparameter tuning 과정은 분량이 많아 일부 생략된 부분이 있다.
 
-자세한 사항은 modeling 참조
+자세한 사항은 [modeling](/modeling.ipynb) 참조
 
 
 ## Conclusion
