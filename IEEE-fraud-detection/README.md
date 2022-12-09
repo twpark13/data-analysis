@@ -1,6 +1,6 @@
 # IEEE Fraud Detection
 
-[link](https://www.kaggle.com/competitions/ieee-fraud-detection/overview)
+[competition link](https://www.kaggle.com/competitions/ieee-fraud-detection/overview)
 
 ## Topic
 
@@ -24,21 +24,15 @@ kaggle은 이미 종료된 대회도 late submission을 통해 점수 산출이 
 
 
 
-### Exploratory Data Analysis
+### Exploratory Data Analysis, Feature Engineering, Modeling
 
-[analysis](/IEEE-fraud-detection/analysis.ipynb) 참조
+상세 내용은 [link](/IEEE-fraud-detection/EDA-modeling.ipynb) 참조
 
-
-
-### Modeling
-
-기본적인 hyperparameter tuning만 거친 xgboost 단일모델을 사용하였다.
+모델링 단계에서는 기본적인 hyperparameter tuning만 거친 xgboost 단일모델을 사용하였다.
 
 고득점을 위해서는 모델링에도 신경을 써야 하지만, 
 모델링은 다른 데이터셋으로도 충분히 연습 할 수 있으며, 
 이미 종료한 대회에 과도한 시간을 쏟는건 비효율적이라 생각하여 EDA 및 feature engineering 에 좀 더 초점을 맞추는 쪽으로 결정했다.
-
-상세 내용은 [modeling](/IEEE-fraud-detection/modeling.ipynb) 참조
 
 
 
